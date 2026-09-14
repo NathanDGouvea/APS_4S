@@ -1,9 +1,5 @@
 import algoritmos
 
-vetor = [10, 5, 4, 2, 7, 1]
+vector = [-1, 5, 10, 2.5, 2, 10, 55, 75, -22, 1, 3]
 
-vetorResultado = bubble_sort(vetor)
-
-print("--TESTE--")
-print(vetorResultado)
-
+print(algoritmos.selection_sort(vector))

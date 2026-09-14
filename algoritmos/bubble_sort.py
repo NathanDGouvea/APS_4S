@@ -1,12 +1,12 @@
-def bubble_sort(vetor):
-    n = len(vetor)
+def bubble_sort(vector):
+    size = len(vector)
 
-    for i in range(n):
-        for j in range(0, n - i - 1):
+    for i in range(size):
+        for j in range(0, size - i - 1):
 
-            if vetor[j] > vetor[j + 1]:
-                vetor[j], vetor[j + 1] = vetor[j + 1], vetor[j]
-            else:
-                continue
+            if vector[j] > vector[j + 1]:
+                vector[j], vector[j + 1] = vector[j + 1], vector[j]
 
-    return vetor
+    return vector
+
+
