@@ -9,13 +9,13 @@ def merge_sort(vector):
     right = merge_sort(vector[middle:])
     
     total = []
-    sizel = len(left)
-    sizer = len(right)
+    size_left = len(left)
+    size_right = len(right)
     
     i = 0
     j = 0
     
-    while i < sizel and j < sizer:
+    while i < size_left and j < size_right:
         if (left[i] > right[j]):
             total.append(right[j])
             j += 1
@@ -23,11 +23,11 @@ def merge_sort(vector):
             total.append(left[i])
             i += 1
             
-    while i < sizel:
+    while i < size_left:
         total.append(left[i])
         i += 1
 
-    while j < sizer:
+    while j < size_right:
         total.append(right[j])
         j += 1
         
