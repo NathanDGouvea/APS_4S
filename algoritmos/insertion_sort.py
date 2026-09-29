@@ -1,4 +1,5 @@
 def insertion_sort(vector):
+    
     size = len(vector)
 
     for i in range(1, size):

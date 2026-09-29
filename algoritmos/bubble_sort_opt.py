@@ -1,4 +1,5 @@
 def bubble_sort_optimized(vector):
+    
     size = len(vector)
 
     for i in range(size):

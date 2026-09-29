@@ -1,14 +1,33 @@
 def quick_sort_optimized(vector, low=0, high=None):
-    
-    if high == None:
+
+    if high is None:
         high = len(vector) - 1
-        
-    if low < high:
+
+    while low < high:
+
         pivot_index = partition(vector, low, high)
-        
-        quick_sort_optimized(vector, low, pivot_index - 1)
-        quick_sort_optimized(vector, pivot_index + 1, high)
-        
+
+        # Recursão na menor partição
+        if pivot_index - low < high - pivot_index:
+
+            quick_sort_optimized(
+                vector,
+                low,
+                pivot_index - 1
+            )
+
+            low = pivot_index + 1
+
+        else:
+
+            quick_sort_optimized(
+                vector,
+                pivot_index + 1,
+                high
+            )
+
+            high = pivot_index - 1
+
     return vector
         
         

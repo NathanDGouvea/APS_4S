@@ -1,4 +1,5 @@
 def quick_sort(vector, pivot_strategy="random"):
+    
     size = len(vector)
     
     if size <= 1:

@@ -1,4 +1,5 @@
 def selection_sort(vector):
+    
     size = len(vector)
     
     for i in range(size):

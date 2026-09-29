@@ -1,4 +1,5 @@
 def merge_sort(vector):
+    
     size = len(vector)
     middle = size // 2
     
