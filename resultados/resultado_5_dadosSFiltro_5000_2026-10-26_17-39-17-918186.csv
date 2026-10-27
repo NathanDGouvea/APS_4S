@@ -1,0 +1,13 @@
+﻿Cenário;Algoritmo;Quantidade de elementos;Repetições;Tempo médio (segundos)
+Inversamente ordenado;Bubble Sort;5000;10;3,5190156299620865
+Inversamente ordenado;Insertion Sort;5000;10;2,3828356699785216
+Inversamente ordenado;Merge Sort;5000;10;0,015471329959109426
+Inversamente ordenado;Quick Sort;5000;10;0,018303170008584856
+Inversamente ordenado;Quick Sort Optimized;5000;10;1,2983709499938414
+Inversamente ordenado;Selection Sort;5000;10;1,0533655800158157
+Aleatório;Bubble Sort;5000;10;2,219261659937911
+Aleatório;Insertion Sort;5000;10;1,0495409200200811
+Aleatório;Merge Sort;5000;10;0,01865913006477058
+Aleatório;Quick Sort;5000;10;0,020385530032217502
+Aleatório;Quick Sort Optimized;5000;10;0,011410969984717667
+Aleatório;Selection Sort;5000;10;1,0105790499830618

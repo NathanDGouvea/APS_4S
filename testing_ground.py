@@ -72,7 +72,7 @@ class TesteAlgoritmos:
                 "Tempo médio (segundos)": media
             })
 
-    def executar(self, arquivo_saida="resultado_testes.csv"):
+    def executar(self, arquivo_saida="resultados/resultado_testes.csv"):
         self.resultados = []
 
         self.executar_teste(
